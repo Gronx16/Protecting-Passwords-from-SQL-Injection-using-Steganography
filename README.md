@@ -1,1 +1,1 @@
-# Protecting-Passwords-from-SQL-Injection-using-Steganography
+# Protecting Passwords from-SQL Injection using Steganography
