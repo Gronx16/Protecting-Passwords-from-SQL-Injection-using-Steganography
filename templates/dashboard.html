@@ -1,0 +1,22 @@
+{% extends 'layout.html' %}
+
+{% block title %} Login {% endblock %}
+
+{% block content %}
+
+<br><br><br>
+<main role="main">
+    <div class="jumbotron">
+        <div class="col-sm-8 mx-auto">
+            <h1>Welcome {{ session['name'] }}!!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus perspiciatis magni dignissimos porro itaque voluptates deleniti magnam earum eaque cupiditate necessitatibus vel, quos placeat omnis dolorum ab provident recusandae cumque distinctio adipisci. Eius enim quo facilis commodi laboriosam, atque veritatis maxime reiciendis nemo omnis deleniti rem et odio voluptatibus delectus.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia rerum ipsum et deserunt praesentium a perspiciatis totam repellendus vitae dicta enim sed, dolorum at veritatis maiores delectus voluptatum obcaecati nostrum similique nam? Aut vitae tempora eum recusandae dolores tempore molestias?</p>    
+                <a class="btn btn-primary" href="/templates/pass_check.html" role="button">Home
+                    &raquo;</a>
+            </p>
+        </div>
+    </div>
+</main>
+
+{% endblock %}
